@@ -1,0 +1,45 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.vse{
+    width: 500px;
+    height: 100vh;
+    border: 2px solid black;
+    margin: 20px auto;
+    position: relative;
+}
+.vse div{
+    position: absolute;
+}
+.box1{
+    background-color:blueviolet;
+    height: 100vh;
+    width: 50px;
+    left: 270px;
+    
+    z-index: 5;
+}
+.box2{
+background-color: black;
+right: 0;
+top:  150px;
+height: 50px;
+width: 228px;
+z-index: 6;
+}
+.box3{
+    background-color: yellow;
+    width: 100vw;
+    height: 50px;
+    top: 350px;
+    z-index: 2;
+    right: -520px;
+}
+.box4{
+    background-color: blue;
+    top: 440px;
+    width: 100%;
+    height: 50px;
+}

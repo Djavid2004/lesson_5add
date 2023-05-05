@@ -1,0 +1,60 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.vse{
+    width: 100%;
+    height: 100vh ;
+    border: 1px solid red;
+    position: relative;
+}
+.vverx{
+    text-align: center;
+    padding: 13px;
+    background-color:blue;
+    width: 100%;
+    height: 50px;
+    position: fixed;
+    font-size: 24px;
+    
+}
+h1{
+    text-align: center;
+    font-weight: lighter;
+    margin-top: 70px;
+    font-size: 70px;
+}
+.vse2{
+    width: 80%;
+    height: 300px ;
+    margin: 90px auto;
+    position: relative;
+    background-color: blanchedalmond;
+}
+.vse2 div {
+    text-align: center;
+    padding-top: 5px;
+}
+.box1{
+    width: 95%;
+    height: 30px;
+    position: relative;
+    bottom: 10px;
+    left: 40px;
+    background-color: green;
+}
+.box3{
+    width: 90px;
+    height: 90px;
+    background-color: brown;
+    position: absolute;
+    right: 30px;
+    top: -20px;
+}
+.box2{
+    width: 90%;
+    height: 30px;
+    background-color: gray;
+    margin: 70px auto;
+}
